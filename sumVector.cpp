@@ -13,7 +13,7 @@ int sumVector(const vector<int>& nums) {
 
 int main() {
     
-    vector<int> myVector = {1, 2, 3, 4, 5};
+    vector<int> myVector = {1, 2, 3, 4, 5, 6};
     int result = sumVector(myVector);
     cout << "Sum of vector: " << result << endl;
 }

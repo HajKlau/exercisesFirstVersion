@@ -25,7 +25,7 @@ void printCounterChar(const unordered_map<char, int>& counter) {
 
 int main() {
     
-    string myString = "banana";
+    string myString = "orange";
     unordered_map<char, int> result = countChar(myString);
     cout << "Counted word characters: " << myString << endl;
     printCounterChar(result);
